@@ -12,6 +12,31 @@ display:flex;
 align-items:center;
 }
 
+/* HERO VARIANTES POR PÁGINA */
+.hero-index{
+background-image:url("../imagenes/hero.jpg");
+}
+
+.hero-silicon{
+background-image:url("../imagenes/uni.jpg");
+}
+
+.hero-tailandia{
+background-image:url("../imagenes/templo.jpg");
+}
+
+.hero-valle{
+background-image:url("../imagenes/valle.jpeg");
+}
+
+.hero-japon{
+background-image:url("../imagenes/japon.webp");
+}
+
+.hero-aurora{
+background-image:url("../imagenes/boreal.jpg");
+}
+
 /* TARJETAS */
 .destino-card{
 transition:transform 0.3s;
