@@ -26,11 +26,11 @@ background-image:url("../imagenes/templo.jpg");
 }
 
 .hero-valle{
-background-image:url("../imagenes/valle.jpeg");
+background-image:url("../imagenes/valle.jpg");
 }
 
 .hero-japon{
-background-image:url("../imagenes/japon.webp");
+background-image:url("../imagenes/japon-templo.webp");
 }
 
 .hero-aurora{
@@ -101,3 +101,167 @@ transition: transform 1s, opacity 1s;
 #aurorasBarco{
     border: 5px solid white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= Rin-Manuel================= */
+/* OCIO */
+#ocioTitulo{
+ font-style: italic;
+ text-align: left;
+ transition: transform 0.1s ease;
+}
+#ocioTexto{
+ transition: transform 1s ease;
+}
+#ocioFoto{
+ transition: transform 2s ease;
+}
+
+/* GASTRONOMÍA */
+#gastronomiaTitulo{
+ font-style: italic;
+ text-align: left;
+ transition: transform 0.1s ease;
+}
+#gastronomiaTexto{
+ transition: transform 1s ease;
+}
+#gastronomiaFoto{
+ transition: transform 2s ease;
+}
+
+/* HISTORIA */
+#historiaTitulo{
+ text-align: right;
+ font-style: italic;
+ transition: transform 0.1s ease;
+}
+#historiaTexto{
+ text-align: center;
+ transition: transform 1s ease;
+}
+#historiaFoto{
+ transition: transform 2s ease;
+}
+
+/* Titulos */
+#ocioTitulo:hover{
+    transform: scale(1.3) translateX(200px);
+}
+#gastronomiaTitulo:hover{
+    transform: scale(1.3) translateX(-200px);
+}
+#historiaTitulo:hover {
+ transform: scale(1.3);
+}
+
+/* Textos */
+#ocioTexto:hover, #gastronomiaTexto:hover, #historiaTexto:hover {
+ transform: scale(1.01);
+}
+
+/* Fotos */     
+#ocioFoto:hover, #gastronomiaFoto:hover, #historiaFoto:hover {
+ transform: scale(1.15);
+}   
+/* ================= Rin-Manuel================= */
