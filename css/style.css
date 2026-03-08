@@ -34,7 +34,8 @@ background-image:url("../imagenes/japon-templo.webp");
 }
 
 .hero-aurora{
-background-image:url("../imagenes/boreal.jpg");
+background-image:url("../imagenes/aurora.jpg");
+border-bottom:5px solid black;
 }
 
 /* TARJETAS */
@@ -71,6 +72,35 @@ display:flex;
 align-items:center;
 }
 
+/* Aurora- Manuel*/
+
+/* PARALLAX AURORA Centro*/
+.parallaxAurora{
+background-image:url("../imagenes/parallaxAurora.jpg");
+height:auto;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+display:flex;
+align-items:center;
+border-bottom: 5px solid black;
+}
+
+#NORUEGA{
+transition: transform 1s,
+opacity 1s;
+}
+
+#NORUEGA:hover{
+transition: transform 1s, opacity 1s;
+    transform:  scale(1.5) translateY(-30px);
+    opacity: 0;
+    cursor: none;
+}
+#aurorasBarco{
+    border: 5px solid white;
+}
 
 
 
