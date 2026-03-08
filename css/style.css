@@ -1,8 +1,15 @@
+/* ================= ESTILOS GENERALES ================= */
+/* Padding superior para compensar la navbar fija */
 body{
 padding-top:70px;
 }
 
-/* HERO */
+/* ================= HERO (PORTADA) ================= */
+/* Sección de portada a pantalla completa con imagen de fondo */
+/* Se usa flexbox para centrar el contenido verticalmente */
+/* Overlay oscuro semitransparente sobre la imagen del hero */
+/* Mejora la legibilidad del texto blanco sobre la imagen */
+/* Sombra en los textos del hero para mayor contraste */
 .hero{
 height:100vh;
 background-image:url("../imagenes/hero.jpg");
@@ -33,7 +40,8 @@ position: relative;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* HERO VARIANTES POR PÁGINA */
+/* ================= VARIANTES DE HERO POR PÁGINA ================= */
+/* Cada página tiene su propia imagen de fondo en el hero */
 .hero-index{
 background-image:url("../imagenes/hero.jpg");
 }
@@ -59,7 +67,9 @@ background-image:url("../imagenes/aurora.jpg");
 border-bottom:5px solid black;
 }
 
-/* TARJETAS */
+/* ================= TARJETAS DE DESTINOS ================= */
+/* Cards con transición suave en hover: se elevan y añaden sombra */
+/* La imagen se recorta a 250px de alto con object-fit:cover */
 .destino-card{
 transition:transform 0.3s;
 height:100%;
@@ -81,7 +91,8 @@ transform:translateY(-10px);
 box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* DATOS CURIOSOS */
+/* ================= DATOS CURIOSOS ================= */
+/* Los items aumentan de tamaño al pasar el ratón */
 .curioso-item {
   transition: font-size 0.3s ease;
 }
@@ -91,7 +102,9 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   cursor: pointer;
 }
 
-/* PARALLAX */
+/* ================= SECCIÓN PARALLAX ================= */
+/* Imagen fija con background-attachment:fixed para efecto parallax */
+/* Se usa flexbox para centrar el texto sobre la imagen */
 .parallax{
 background-image:url("../imagenes/mapamundi.png");
 height:400px;
@@ -132,108 +145,6 @@ transition: transform 1s, opacity 1s;
 #aurorasBarco{
     border: 5px solid white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ================= Rin-Manuel================= */
 /* OCIO */
